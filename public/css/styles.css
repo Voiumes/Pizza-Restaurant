@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(22, 22, 22);
+}
+.blank{
+    height: 1000px;
+}
+.bg-dark{
+    background-color: rgb(22, 22, 22) !important;
+}
+hr{
+    color:white;
+}
+
+.cursive{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px !important;
+}
+.parallax1 { 
+    background-color: black;
+    background-image: url("../img/pizza2.jpg");
+    height: 800px; 
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1 p{
+    color: white;
+    text-align: center;
+    text-shadow: 8px 8px 10px rgb(0, 0, 0);
+    padding-top: 220px;
+    opacity: 0;
+    animation: 1s fadein .2s forwards;
+}
+.parallax1 h1{
+    color: white;
+    text-align: center;
+    text-shadow: 10px 10px 10px rgb(0, 0, 0);
+    font-size: 130px;
+    opacity: 0;
+    animation: 1s fadein .2s forwards;
+    
+}
+@keyframes fadein{
+    100%{
+        opacity: 1;
+    }
+}
+.best{
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(197, 197, 197);
+    font-family: 'Dancing Script', cursive;
+  
+}
+.best p{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4em;
+    margin-bottom: 70px;
+}
+.pizzaimg{
+    padding-top: 150px;
+    text-align: center;
+}
+@media screen and (max-width: 750px) {
+    .grid1{
+        display: inline;
+    }
+    .best{
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;  
+        padding-top: 30px;
+        font-family: 'Dancing Script', cursive;
+    }
+    .best p{
+        font-family: 'Source Serif Pro', serif;
+        font-size: 16px;
+    }
+    .parallax1 { 
+        background-color: black;
+        background-image: url("../img/pizza2.jpg");
+        height: 600px; 
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax1 p{
+        color: white;
+        text-align: center;
+        text-shadow: 8px 8px 10px rgb(0, 0, 0);
+        padding-top: 120px;
+    }
+    .parallax1 h1{
+        color: white;
+        text-align: center;
+        text-shadow: 10px 10px 10px rgb(0, 0, 0);
+        font-size: 80px;
+        
+    }
+    .pizzaimg{
+        text-align: center;
+        padding: 20px;
+    }
+  }
+
+
+.squareimg{
+    height:200px;
+    width: auto;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.parallax2 { 
+    background-color: black;
+    background-image: url("../img/pizza8.jpg");
+    height: 250px; 
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 h1{
+    padding-top: 80px;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 8px 8px 10px rgb(0, 0, 0);
+    font-size: 60px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4em;
+    margin-bottom: 70px;
+}
+@media screen and (max-width: 750px) {
+    .grid2{
+        display: inline;
+    }
+  }
+.gridimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 4em;
+}
+.squaretop{
+    height:200px;
+    width: auto;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+.squarebot{
+    height:200px;
+    width: auto;
+    border-radius: 25px;
+}
+@media screen and (max-width: 750px) {
+    .square{
+       display: none;
+    }
+    .gridimg{
+        display: none;
+
+    }
+  }
+  .parallax3 {
+    background-image: url("../img/dough.jpg");
+    height: 250px; 
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 h1{
+    padding-top: 80px;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 8px 8px 10px rgb(0, 0, 0);
+    font-size: 60px;
+}
+.about {
+    background-color: rgb(0, 10, 0);
+    padding: 50px 0;
+}
+.aboutTitle{
+    color: rgb(137, 173, 84);
+    text-align: center;
+}
+.aboutP {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    color:whitesmoke;
+    text-align: center;
+}
+.about input{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.submit{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 5px;
+}
+footer {
+    background-color: rgb(37, 10, 10);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px 0;
+}
